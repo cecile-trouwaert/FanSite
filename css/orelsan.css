@@ -1,20 +1,9 @@
+/*Fond general*/
 body {
     background-color: black;
 }
 
-/*Placement de l'image*/
-
-.picture {
-    display: flex;
-    justify-content: center;
-}
-
-.picture img {
-    width: 600px;
-}
-
 /*Mise en forme de l'en tête*/
-
 header{
     background-color: red;
     margin: 20px auto;
@@ -22,20 +11,17 @@ header{
     padding-bottom: 15px;
 }
 
-a {color: white}
+/*Couleur de l'écriture*/
+a {color: white;}
+p {color: white;}
 
-section{
+.linkheader {
     display: flex;
     justify-content: space-around;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-/*Choix de la couleur de la police d'écriture*/
-
-p {color: white;}
-
 /*Titre principale*/
-
 h1 {
     color: white;
     text-align: center;
@@ -45,55 +31,115 @@ h1 {
 }
 
 /*Sous titre*/
-
 h2 {
     color: white;
-    text-align: center;
+    text-align:center;
     font-style: italic;
 }
 
-/* Page Orelsan terminée*/
-
 /*Mise en place de la fin de page*/
-
-footer {
-    
+footer {    
     background-color: red;
     box-shadow:black;
     margin: 2px auto;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .logo img {
     height: 30px;        
     width: auto; 
 }
 
+/*Placement de l'image, page Orelsan*/
+.picture {
+    display: flex;
+    justify-content: center;
+}
+.picture img {
+    width: 600px;
+}
 
 /*Mise en forme du texte de la page Histoire*/
-
-section4{
+.history{
     text-align: center;
-}
-section4 div{
     margin: auto 6%;
 }
 
 /* Mise en forme des images discographies*/
-
-.box {
+.album {
     display: flex;
     justify-content: space-evenly;
 }
-
-.box2 {
+.album img {
+    height: 300px;
+    width: auto;
+}
+.albumtexte {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.album2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.album2 img {
+    height: 300px;
+    width: auto;
+    margin-top: 30px;
+}
+.albumtexte2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+/*WebSite*/
+.website {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.website img {
+    height: 300px;
+    width:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Gallery photo*/
+ 
+.picture1 img {
+    height: 200px;
+    width: auto;
+}
+.picture1 {
+    display: flex;
+    justify-content: space-around
+}
+.picture2 img {
+    height: 200px;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.picture2 {
+    display: flex;
+    justify-content: space-around
+}
+.picture3 img {
+    height: 200px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.picture3 {
+    display: flex;
+    justify-content: space-around
 }
