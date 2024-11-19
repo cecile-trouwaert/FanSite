@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #000; 
+    color: #fff; 
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #111; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    background-color: #8f2f2f; 
+    padding: 0.75rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background: linear-gradient(45deg, #0e0d0d, #8f2f2f); 
+    color: #ede7e7;
+    transform: translateY(-2px);
+}
+
+.bio-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #222; /
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+.bio-container img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bio-container h2 {
+    font-size: 28px;
+    color: #fff; 
+    margin-top: 20px;
+}
+
+.bio-container p {
+    font-size: 16px;
+    color: #ccc; 
+}
+
+.quote {
+    font-style: italic;
+    color: #ddd;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+"{
+    padding 0;
+    margin 0;
+    box-sizing: border-box;
+    font-family: century;
+}"
+
+:root {
+    --primary-color: #d0c6c6;
+    --gradient-start: #f2e7e7;
+    --gradient-end: #decfcf;
+}
+
+nav {
+    box-shadow: 0 4px 15px rgb(141, 32, 32);
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: var(--primary-color);
+    background-color: rgba(84, 19, 19, 0.9);
+    padding: 0.75rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    color: #f6f0f0;
+    transform: translateY(-2px);
+    
+}

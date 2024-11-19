@@ -6,15 +6,13 @@
 }"
 
 :root {
-    --primary-color: #000000; /* Rouge reggae /
-    --secondary-color: #c85050; / Vert nature /
-    --accent-color: #df5353; / Jaune énergique */
-    --gradient-start: #fc191d;
-    --gradient-end: #0c0303;
+    --primary-color: #d0c6c6;
+    --gradient-start: #f2e7e7;
+    --gradient-end: #decfcf;
 }
 
 nav {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 15px rgb(141, 32, 32);
     width: 100%;
     padding: 1rem 0;
     display: flex;
@@ -24,7 +22,7 @@ nav {
 
 nav a {
     color: var(--primary-color);
-    background-color: rgba(138, 25, 25, 0.9);
+    background-color: rgba(84, 19, 19, 0.9);
     padding: 0.75rem 1.5rem;
     margin: 0 0.5rem;
     border-radius: 25px;
@@ -36,11 +34,25 @@ nav a {
 
 nav a:hover {
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
-    color: #0c0101;
+    color: #f6f0f0;
     transform: translateY(-2px);
     
 }
 
 body {
     background-color: #000000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 100vw;      /* La largeur prend 100% de la largeur de la fenêtre */
+    height: 100vh;     /* La hauteur prend 100% de la hauteur de la fenêtre */
+    object-fit: cover; /* Maintient les proportions de l'image sans la déformer */
+    display: block;    /* Évite l'espace en dessous de l'image (comportement inline) */
 }
