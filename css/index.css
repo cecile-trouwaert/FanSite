@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
+
+header {
+    background-color: black;
+    display: flex;
+}
+
+.header-button {
+    font-size: 20px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.header-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-button a:hover {
+    color: red;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation {
+    text-align: center;
+    font-size: 30px;
+}
+
+.body-images-1-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.body-images-1-2 img {
+    display: flex;
+    border: solid black 2px;
+}
+
+.body-image-1 {
+    width: 10vw;
+}
+
+.body-image-1 a {
+    display: flex;
+    justify-content: center;
+}
+
+.body-image-2 {
+    width: 10vw;
+}
+
+.body-image-2 a {
+    display: flex;
+    justify-content: center;
+}
+
+.image-faker {
+    width: 400%;
+}
+
+.images-orelsan {
+    width: 400%;
+}
+
+.body-image-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+}
+
+.footer-button {
+    font-size: 20px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.footer-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-button a:hover {
+    color: red;
+}

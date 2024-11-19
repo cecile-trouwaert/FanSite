@@ -1,0 +1,145 @@
+/*Fond general*/
+body {
+    background-color: black;
+}
+
+/*Mise en forme de l'en tête*/
+header{
+    background-color: red;
+    margin: 20px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*Couleur de l'écriture*/
+a {color: white;}
+p {color: white;}
+
+.linkheader {
+    display: flex;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Titre principale*/
+h1 {
+    color: white;
+    text-align: center;
+    font-size:300%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+/*Sous titre*/
+h2 {
+    color: white;
+    text-align:center;
+    font-style: italic;
+}
+
+/*Mise en place de la fin de page*/
+footer {    
+    background-color: red;
+    box-shadow:black;
+    margin: 2px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img {
+    height: 30px;        
+    width: auto; 
+}
+
+/*Placement de l'image, page Orelsan*/
+.picture {
+    display: flex;
+    justify-content: center;
+}
+.picture img {
+    width: 600px;
+}
+
+/*Mise en forme du texte de la page Histoire*/
+.history{
+    text-align: center;
+    margin: auto 6%;
+}
+
+/* Mise en forme des images discographies*/
+.album {
+    display: flex;
+    justify-content: space-evenly;
+}
+.album img {
+    height: 300px;
+    width: auto;
+}
+.albumtexte {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.album2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.album2 img {
+    height: 300px;
+    width: auto;
+    margin-top: 30px;
+}
+.albumtexte2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+/*WebSite*/
+.website {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.website img {
+    height: 300px;
+    width:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Gallery photo*/
+ 
+.picture1 img {
+    height: 200px;
+    width: auto;
+}
+.picture1 {
+    display: flex;
+    justify-content: space-around
+}
+.picture2 img {
+    height: 200px;
+    width: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.picture2 {
+    display: flex;
+    justify-content: space-around
+}
+.picture3 img {
+    height: 200px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.picture3 {
+    display: flex;
+    justify-content: space-around
+}
